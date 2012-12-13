@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>First:</b>
+  <%= @thing.first %>
+</p>
+
+<p>
+  <b>Second:</b>
+  <%= @thing.second %>
+</p>
+
+<p>
+  <b>Third:</b>
+  <%= @thing.third %>
+</p>
+
+
+<%= link_to 'Edit', edit_thing_path(@thing) %> |
+<%= link_to 'Back', things_path %>
