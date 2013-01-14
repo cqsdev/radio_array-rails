@@ -29,4 +29,5 @@ module RadioArray
     end
   end
 end
-ActionView::Helpers::FormHelper.send(:include, RadioArray::FormHelper)
+
+ActionView::Base.send(:include, RadioArray::FormHelper)

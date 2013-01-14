@@ -7,7 +7,7 @@ require "radio_array/version"
 Gem::Specification.new do |s|
   s.name        = "radio_array"
   s.version     = RadioArray::VERSION
-  s.authors     = ["David Biagi"]
+  s.authors     = ["David Biagi", "Will Gray"]
   s.email       = ["david.biagi@vanderbilt.edu"]
   s.homepage    = "http://cqs.mc.vanderbilt.edu"
   s.summary     = "Quickly and easily create multiple fields in a form that have the same options for selection via radio buttons."
