@@ -15,7 +15,7 @@ module RadioArray
         table += "<tr>"
         table += "<td style='width:#{column_width}%'>"+label(object_name, field)+"</td>"
         field_options.each do |option|
-          table += "<td style='width:#{column_width}%' align='center'>"+radio_button(object_name, field, option)+"</td>"
+          table += "<td style='width:#{column_width}%' align='center'>"+radio_button(object_name, field, option, html_options)+"</td>"
         end
         table += "</tr>"
       end
